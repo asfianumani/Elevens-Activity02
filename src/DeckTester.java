@@ -20,5 +20,6 @@ public class DeckTester {
    values[1]=11;
    Deck one=new Deck(ranks, suits, values);
    System.out.println(one.isEmpty());
+   System.out.println(one.size());
  }
 }
